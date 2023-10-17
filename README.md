@@ -5,6 +5,10 @@
 ## 2. Virtual Environments
    ### conda create --name myenv python=3.8
    ### conda activate myenv
+   ### conda env list
+   ### conda env remove --name myenv
+   ### conda create --name newenv --clone myenv
+
 ## 3. Installing Packages
    ### pip install libraryname==1.2.3
    ### conda install libraryname=1.2.3
