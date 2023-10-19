@@ -8,6 +8,12 @@
    ### conda env list
    ### conda env remove --name myenv
    ### conda create --name newenv --clone myenv
+   ### Using YAML files
+   ### a. Export the current environment to a YAML file:
+   ### conda activate dev
+   ### conda env export > dev.yml
+   ### b. Create a new environment from the YAML file:
+   ### conda env create --name dev --file dev.yml
 
 ## 3. Installing Packages
    ### pip install libraryname==1.2.3
