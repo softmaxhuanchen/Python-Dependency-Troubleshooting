@@ -30,4 +30,10 @@
 ## 7. Clean Cache
    ### pip cache purge  
 
+## 8. recreate a conda env for fintech
+   ### conda deactivate
+   ### conda update conda
+   ### conda create -n dev python=3.10 anaconda
+   ### conda activate dev
+
     
